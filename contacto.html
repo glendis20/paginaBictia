@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <img src="./totoro.svg" alt="logo">
+        <h1>Anime</h1>
+    </header>
+    <nav class="main-navbar">
+        <ul>
+            <li><a href="#" class="active"> Home </a></li>
+            <li><a href="#"> Historias</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <form action="ejemplo" method="get">
+        <p>Nombre: <input type="text" name="nombre" size="40"></p>
+        <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+        <p>Sexo:
+          <input type="radio" name="hm" value="h"> Hombre
+          <input type="radio" name="hm" value="m"> Mujer
+        </p>
+        <p>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Borrar">
+        </p>
+        <div>
+            <label for="message">Mensaje</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <button>Enviar</button>
+      </form>
+    <footer class="main-footer">
+        Copyright 2020 - Anime
+    </footer>
+</body>
+
+</html>         
